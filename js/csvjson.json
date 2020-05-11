@@ -1,0 +1,56 @@
+[
+  {
+     "Num": "one",
+     "Trait":["Courage","Success","Purpose"],
+     "Reading":"You have deep thinking, outgoing personality. You are flexible, adaptable, and a good listener. You are helpful to people around you.On a bad day, however, you can be overly emotional and get insecure or fearful.",
+     "Comp":["three","nine","six"]
+  },
+  {
+    "Num": "two",
+    "Trait":["Love","Relationship","Openness"],
+    "Reading":"You are very honest, stable and reliable. You are hard-working, confident and balanced. On a bad day, however, you can sometimes be too much of an workaholic and take on too much responsibility.",
+    "Comp":["one","four","seven"]
+  },
+  {
+    "Num": "three",
+    "Trait":["Strength","Health","Family"],
+    "Reading":"You are patient and work well under pressure. Your open minded trait will allow you to grow beyond current limitations. On a bad day, however, you can be stubborn and self-absorbed",
+    "Comp":["two","five","eight"]
+  },
+  {
+    "Num": "four",
+    "Trait":["Prosperity","Fortune","Wealth","Abundance"],
+    "Reading":"You are very thoughtful, sensitive and gentle. You like harmony and balance. You are a good communicator but you can be very hyperactive and temperamental in difficult situation.",
+    "Comp":["one","six","nine"]
+  },
+  {
+    "Num": "five",
+    "Trait":["Endurance","Harmony","Well Being"],
+    "Reading":"You are very confident and clear. Your powerful and strong personality help you cope with difficult situations. But beaware, you have a power of creation as well as destruction.",
+    "Comp":["three","seven","eight"]
+  },
+  {
+    "Num": "six",
+    "Trait":["Protection","Help"],
+    "Reading":"You are self-disciplined and ambitious. You are analytical, extremely focused and goal-oriented. On a bad day, however, you can easily burn yourself out and experience ambitionless and withdrawn state.",
+    "Comp":["two","four","seven"]
+  },
+  {
+    "Num": "seven",
+    "Trait":["Joy","Inspiration","Creativity"],
+    "Reading":"Everyone loves you! You are easy-going, entertaining, and fun-loving seeker. But sometimes, you can be self-absorbed and defensive",
+    "Comp":["one","five","nine"]
+  },
+  {
+    "Num": "eight",
+    "Trait":["Wisdom","Knowledge"],
+    "Reading":"You are stable and serious like mountain. You are dependable and fair. You might have hard time opening to others and being true to your emotion.",
+    "Comp":["one","three","six"]
+  },
+  {
+    "Num": "nine",
+    "Trait":["Fame","Prosperity"],
+    "Reading":"You have personality like fire. You are impulsive and have lots of energy. However, you would eventually burn out unless it is regularly fed with what it needs.",
+    "Comp":["two","four","eight"]
+  }
+]

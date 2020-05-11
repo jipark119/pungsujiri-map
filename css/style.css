@@ -1,0 +1,267 @@
+body{
+	margin:0;
+	padding:0;
+	background:#f4f2e1;
+	width: 100%;
+	height:100vh;
+	overflow: hidden;
+}
+h1{
+	margin-top:80px;
+	font-size:18px;
+}
+.title{
+	margin-top: 140px;
+	display: none;
+	animation: blinker 1.5s linear infinite;
+}
+
+
+@keyframes blinker {
+50% {
+	opacity: 0;
+}
+}
+.main{
+    width: 100%;
+    height: 100%;
+    padding: 40px 0px;
+    display: block;
+}
+.svgbox{
+	display: none;
+	max-width: 850px;
+	margin:10px auto;
+	stroke:black; 
+	stroke-width:0.5;
+}
+.reading{
+	display: none;
+	position: fixed;
+	z-index: 99999;
+	width: 300px;
+	top:0;
+}
+.legend{
+	display: none;
+	font-family: prestige-elite-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+	position: fixed;
+	z-index: 99999;
+	width: 300px;
+	top:20px;;
+	right:20px;
+	border:1px solid black;
+	background:white;
+}
+.inner-reading{
+	font-family: prestige-elite-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+	display: inline-block;
+	width: 100%;
+	height:100%;
+	padding:20px 20px;
+}
+.k-reading{
+	padding:10px 10px;
+	font-size: 14px;;
+}
+.c-reading{
+	line-height: 150%;
+	padding:10px 10px;
+	font-size: 14px;;
+}
+.inner-reading h1{
+	margin:0px;
+	padding:10px 10px;
+	background:white;
+	border-bottom:1px solid black;
+}
+.name-rd{
+	margin-bottom:20px;
+	border:1px solid black;
+}
+.zone-rd{
+	margin-bottom:20px;
+	border:1px solid black;	
+}
+.pj-rd{
+	margin-bottom:20px;
+	border:1px solid black;	
+}
+
+button {
+	background: none;
+    border: none;
+    width: 200px;
+    font-size: 18px;
+    padding: 20px 5px;
+    height: 35px;
+  }
+button:focus {outline:0;}
+select:focus {outline:0;}
+input:focus {outline:0;}
+button:hover{
+	color:blueviolet;
+	cursor: pointer;
+}
+select{
+	background:none;
+	border: 1px solid black;
+	font-family: prestige-elite-std, monospace;
+	font-weight: 400;
+	font-style: normal;
+    width: 200px;
+	font-size: 18px;
+	padding: 5px 5px;
+	height: 30px;
+}
+.prompt{
+	border-radius: 50%;
+	height: 300px;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+    font-family: prestige-elite-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+    width: 500px;
+    border: 1px solid black;
+}
+
+input[type=text] {
+	border-radius:5px;
+	font-family: prestige-elite-std, monospace;
+	font-weight: 400;
+	font-style: normal;
+	width: 200px;
+	padding: 5px 5px;
+	margin: 8px 0;
+	font-size: 18px;
+	background:none;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+
+ .area.one{
+	 display: none;
+	fill:#94b3e0;
+	
+}
+.one{
+	border:1px solid black;
+	margin-right: 5px;
+	width: 15px;
+    height: 15px;
+    float: left;
+	background:#94b3e0;
+}
+.area.two{
+	display: none;
+	fill:#f2c399;
+}
+.two{
+	border:1px solid black;
+	margin-right: 5px;
+	width: 15px;
+    height: 15px;
+    float: left;
+	background:#f2c399;
+}
+.area.three{
+	display: none;
+	fill:#f9e41c;
+}
+.three{
+	border:1px solid black;
+	margin-right: 5px;
+	width: 15px;
+    height: 15px;
+    float: left;
+	background:#f9e41c;
+}
+.area.four{
+	display: none;
+	fill:#a0cd63;
+}
+.four{
+	border:1px solid black;
+	margin-right: 5px;
+	width: 15px;
+    height: 15px;
+    float: left;
+	background:#a0cd63;
+}
+.area.five{
+	display: none;
+	fill:#d9712d;
+}
+.five{
+	border:1px solid black;
+	margin-right: 5px;
+	width: 15px;
+    height: 15px;
+    float: left;
+	background:#d9712d;
+}
+.area.six{
+	display: none;
+	fill:#a6a6a6;
+}
+.six{
+	border:1px solid black;
+	margin-right: 5px;
+	width: 15px;
+    height: 15px;
+    float: left;
+	background:#a6a6a6;
+}
+.area.seven{
+	display: none;
+	fill:#bd2619;
+}
+.seven{
+	border:1px solid black;
+	margin-right: 5px;
+	width: 15px;
+    height: 15px;
+    float: left;
+	background:#bd2619;
+}
+.area.eight{
+	display: none;
+	fill:#ecbdcc;
+}
+.eight{
+	border:1px solid black;
+	margin-right: 5px;
+	width: 15px;
+    height: 15px;
+    float: left;
+	background:#ecbdcc;
+}
+.area.nine{
+	display: none;
+	fill:#7be0da;
+} 
+.nine{
+	border:1px solid black;
+	margin-right: 5px;
+	width: 15px;
+    height: 15px;
+    float: left;
+	background:#7be0da;
+}
+
+.mapB{
+	padding:10px 10px;
+	font-size:14px;
+	cursor:pointer;
+}
+.mapB:hover{
+	color:purple;
+}
